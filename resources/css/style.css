@@ -31,25 +31,34 @@ nav ul li a {
 
 section {
     padding: 20px;
+}
+
+#about {
+    
     display: flex;
     align-items: center;
   }
   
-  section h2 {
+  #about h2 {
     order: 1;
   }
   
-  section p {
+  #about p {
     order: 2;
   }
 
-  section ul {
+  #about ul {
     order: 2;
   }
   
-  section img {
+  #about img {
     width: 400px;
     
     border-radius: 50%;
     margin-left: 20px;
+  }
+
+  footer {
+    height: 100px;
+    background-color: aquamarine;
   }
