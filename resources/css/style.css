@@ -1,6 +1,6 @@
 header {
     background-color: rgb(37, 37, 37);
-    padding: 10px;
+    padding: 20px;
     width: 100%;
     height: auto;
     display: flex;
@@ -9,11 +9,15 @@ header {
     color: white;
 }
 
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
 
 nav ul {
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 20px;
     float: right;
     
 }
@@ -30,7 +34,7 @@ nav ul li a {
 }
 
 section {
-    padding: 20px;
+    padding: 40px;
 }
 
 #about {
@@ -60,5 +64,29 @@ section {
 
   footer {
     height: 100px;
-    background-color: aquamarine;
+    background-color: rgb(37, 37, 37);
+  }
+
+  .skill-icons img {
+    width: 70px;
+    padding: 20px;
+  }
+
+  .skill-icons img:hover {
+    transform: scale(1.5, 1.5);
+    transition: 0.5s;
+    transform-origin: center;
+  }
+
+  footer {
+    padding: 20px;
+    color: white;
+  }
+
+  footer a {
+    color: white;
+  }
+
+  footer a:hover {
+    color: rgb(212, 35, 35);
   }
