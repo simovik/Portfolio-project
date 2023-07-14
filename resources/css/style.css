@@ -1,17 +1,33 @@
 header {
     background-color: rgb(37, 37, 37);
-    padding: 20px;
+    padding: 0;
     width: 100%;
-    height: auto;
+    height: 140px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     color: white;
 }
 
+body {
+  width: auto;
+  
+}
+
+#banner {
+  display: flex;
+}
+
+#banner img {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100px;
+}
+
 h1 {
   font-size: 36px;
   font-weight: bold;
+  
 }
 
 nav ul {
@@ -55,10 +71,8 @@ section {
     order: 2;
   }
   
-  #about img {
-    width: 400px;
-    
-    border-radius: 50%;
+  #profile-pic {
+    width: 30%;    
     margin-left: 20px;
   }
 
@@ -67,23 +81,29 @@ section {
     background-color: rgb(37, 37, 37);
   }
 
-  .skill-icons img {
+  .icons img{
     width: 70px;
     padding: 20px;
   }
 
-  .skill-icons img:hover {
+  .icons img:hover {
     transform: scale(1.5, 1.5);
     transition: 0.5s;
     transform-origin: center;
   }
 
   footer {
-    padding: 20px;
+    
     color: white;
+    width: 100%;
+  }
+
+  footer h3 {
+    margin: 10px;
   }
 
   footer a {
+    margin: 10px;
     color: white;
   }
 
