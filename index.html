@@ -2,18 +2,21 @@
 <html>
     <head>
         <link rel="stylesheet" href="resources/css/style.css" type="text/css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
             <div id="banner">
-            <img src="resources/images/Logo.png" alt="logo">
+            <img src="resources/images/Logo blue.png" alt="logo">
             <h1>Simen Ovik Portfolio</h1>
         </div>
             <nav>
                 <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="./index.html">About</a></li>
+                    
+                    <li><a href="./contact.html">Contact</a></li>
                 </ul>  
             </nav>
         </header>
@@ -25,15 +28,29 @@
               <p>I'm accurate, structured and efficient, which means I deliver good solutions and on time which leads to efficiency and stability. This gives others confidence that the job gets done in a satisfying way.</p>
               <p>I'm a good problem solver, which means I come up with solutions to different problems and situations. This in turn gives a sense of comfort, knowing that the work will not come to a hault.</p>
               <p>I'm an avid gamer, spending my free time playing card games or video games with friends. I'm also a proficient home cook, experimenting with different flavors and recipies from other cultures.</p>
+              <h3>This page has been running for:</h3>
+              <p id="learning">00:00:00</p>
+              <script src="resources/scripts/script.js"></script>
             </div>
             <img id="profile-pic" src="resources/images/Ovik, Simen 2.png" alt="Profile Picture">
           </section>
           <section id="projects">
             <h2>My Projects</h2>
             <ul>
-                <li><a href="#">My Portfolio</a></li>
-                <li><a href="#">Project 2</a></li>
-                <li><a href="#">Project 3</a></li>
+                <div>
+                    <img src="resources/images/Project 1.png">
+                    <li><a href="./index.html">My Portfolio</a></li>                    
+                </div>
+                <div>
+                    <img src="resources/images/Project 2.png">
+                    <li><a href="#">Project 2</a></li>                    
+                </div>
+                <div>
+                    <img src="resources/images/Project 3.png">
+                    <li><a href="#">Project 3</a></li>                    
+                </div>
+                
+                
             </ul>
           </section>
           <section id="skills">
