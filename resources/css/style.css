@@ -139,3 +139,9 @@ section {
   footer a:hover {
     color: rgb(212, 35, 35);
   }
+
+  @media all and (max-width: 720px) {
+    body {
+      background-color: darkorange;
+    }
+  }
